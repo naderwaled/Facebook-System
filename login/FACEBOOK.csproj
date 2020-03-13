@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D10A1186-F69E-4401-9E11-A5DA1643C001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Edit .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Edit .designer.cs">
+      <DependentUpon>Edit .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\messenger.cs" />
+    <Compile Include="Resources\Messenger2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Messenger2.Designer.cs">
+      <DependentUpon>Messenger2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\newGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\newGroup.designer.cs">
+      <DependentUpon>newGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\newGroup2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\newGroup2.designer.cs">
+      <DependentUpon>newGroup2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\timeline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\timeline.designer.cs">
+      <DependentUpon>timeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\post.cs" />
+    <Compile Include="Resources\user.cs" />
+    <Compile Include="Resources\Write Post.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Write Post.designer.cs">
+      <DependentUpon>Write Post.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Edit .resx">
+      <DependentUpon>Edit .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messenger2.resx">
+      <DependentUpon>Messenger2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\newGroup.resx">
+      <DependentUpon>newGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\newGroup2.resx">
+      <DependentUpon>newGroup2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\timeline.resx">
+      <DependentUpon>timeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Write Post.resx">
+      <DependentUpon>Write Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001aa0ba1bb1149371e618.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-tag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36374578_986556764855841_7833573697075019776_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-different-people-profile-avatar-icon-connect-communicate-with-each-other-302880554.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThinkstockPhotos-519545168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-different-people-profile-avatar-icon-connect-communicate-with-each-other-3028805541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-different-people-profile-avatar-icon-connect-communicate-with-each-other-3028805542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application-edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob-Search-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

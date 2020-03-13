@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FACEBOOK.login" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkzEgQAgCRgwhCwBQCEDRgSKEAwQKAAFiDMAYwCMKA=</HashCode>
+      <FileName>login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FACEBOOK.post" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAACAAAAABAAAAAAEAAAEAAAAEAEAAAAAAA=</HashCode>
+      <FileName>Resources\post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FACEBOOK.user" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAGBogAQCAgAACwCEgQAAAIAAEIAAACACCQAAgCAAA=</HashCode>
+      <FileName>Resources\user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Program">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Edit" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEBAAQAACgABRAAEACAAAoSIIAAAAAAAEAEAwAAAAA=</HashCode>
+      <FileName>Resources\Edit .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAABAAAAAFAJECAAASIEAQEAAAQCACAgIIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Messenger.messenger" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAABAAAIAIAAAAAEAgAAKAACgAAAgAIAAABAAI=</HashCode>
+      <FileName>Resources\messenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Messenger.newGroup" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABCAAAAIAAACAAAASAEA4ADAAEnAIARAAAAA=</HashCode>
+      <FileName>Resources\newGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Messenger.newGroup2" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAA4AAAAEHAAAABAAAA=</HashCode>
+      <FileName>Resources\newGroup2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Resources.Messenger2" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAQAAAAACAAAAIECAaACAQCAEA4AAAAMnAIAQAAgiA=</HashCode>
+      <FileName>Resources\Messenger2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Resources.Profile" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAASAgBABDYRECMAoIWIEJQDBEAAMYAAImQABSAIgig=</HashCode>
+      <FileName>Resources\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="new_design.Form1" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAgBABDQBEBMAoAeIEMACREAAIQAAIkYAASCIIig=</HashCode>
+      <FileName>Resources\timeline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="new_design.Write_Post" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQABAAECgAABAQAASQEIACEACIKYAAAgRAgQRAQAA=</HashCode>
+      <FileName>Resources\Write Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
